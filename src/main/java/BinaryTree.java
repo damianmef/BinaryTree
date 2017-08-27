@@ -1,7 +1,8 @@
 public class BinaryTree {
 
     public static void main(String[] args) {
-
+        TreeElement randomBinaryTree = generateRandomBinaryTree(6, 0.5, 99);
+        System.out.println(randomBinaryTree.toString());
     }
 
     public static TreeElement generateRandomBinaryTree(int elementsNumber, double probability, int range) {
@@ -47,6 +48,7 @@ public class BinaryTree {
                     }
                 }
             } while (!newElementWasAdded);
+            System.out.println(newElement.toString());
         }
 
         return rootElement;

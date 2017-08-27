@@ -22,7 +22,7 @@ public class TreeElement {
                 "elementValue=" + elementValue +
                 ", leftElement=" + leftElement +
                 ", rightElement=" + rightElement +
-                '}';
+                '}'+ "\n";
     }
 
     public int getElementValue() {
